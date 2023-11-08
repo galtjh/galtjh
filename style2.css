@@ -1,31 +1,17 @@
 body {
-  background: linear-gradient(to right, skyblue, lightgreen); 
-  background-repeat: no-repeat; 
-  background-attachment: fixed;
-} 
-
-img {width: 300px;
-     border-radius: 30px;} /* border-radius renders smooth edges */
-
-#box1 {
-  border: 2px solid;
-  width: 150px;
-  height: 35px;
-  font-size: 35px;
-  text-align: center;
-  background: lightpink;
-
-  transform: skew(20deg, 20deg);
-  /* Add semicolon at the end of the line above */
-
-  animation: mySlide;
-  animation-iteration-count: infinite;
-  animation-duration: 8s;
+    background-color: #F4E1D2;
+    text-align: center;
 }
 
-@keyframes mySlide {
-  from {margin-left: 100%;}
-  to {margin-left: 0%;}
+#sec_head {
+    color:#D83367;
+    background-color: antiquewhite;
+}
 }
 
-/* Commented out the previous body background code */
+button {
+    font-size: large;
+    font-weight: 400;
+    color: white;
+    background-color: #D83367;
+}
