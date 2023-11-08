@@ -1,11 +1,12 @@
 body {
-    background-color: #F4E1D2;
-    text-align: center;
+    background-color: #f1e6de;
+    text-align: left;
+    margin-left: 7%;
 }
 
 #sec_head {
     color:#D83367;
-    background-color: antiquewhite;
+    background-color: rgb(233, 190, 133);
 }
 
 button {
@@ -14,3 +15,4 @@ button {
     color: white;
     background-color: #D83367;
 }
+
