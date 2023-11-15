@@ -1,12 +1,17 @@
 body {
-    background-color: #f1e6de;
+    color: #f1e6de;
     text-align: left;
     margin-left: 7%;
+    background-image:url("abstract-black.png"); 
 }
 
 #sec_head {
     color:#D83367;
     background-color: rgb(233, 190, 133);
+}
+
+#anchor {   
+    color: rgb(53, 243, 43);
 }
 
 button {
@@ -19,4 +24,5 @@ button {
 #screen {
     width: 50% ;
 }
+
 
